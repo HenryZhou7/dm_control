@@ -22,7 +22,8 @@ Follow these steps to install `dm_control`:
    that the MuJoCo Zip archive is extracted as `~/.mujoco/mjpro150`.
 
 2. Install the `dm_control` Python package by running
-   `pip install git+git://github.com/deepmind/dm_control.git`
+   `pip install git+git://github.com/deepmind/dm_control.git` using the original repo;
+   `pip install git+git://github.com/HenryZhou7/dm_control.git` using this repo (with graphical rendering disabled).
    (PyPI package coming soon) or by cloning the repository and running
    `pip install /path/to/dm_control/`
    At installation time, `dm_control` looks for the MuJoCo headers from Step 1
